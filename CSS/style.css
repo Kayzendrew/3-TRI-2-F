@@ -22,3 +22,29 @@ footer p{
     font-size: 0.6rem;
     margin: 0.5rem;
 }
+
+#container{
+    display: flex;
+}
+
+.cartao{
+    margin: 2rem;
+    height: 20rem;
+    background-color: #243642;
+    color: #E2F1E7;
+}
+
+.conteudo-cartao{
+    text-align: center;
+    height: 2rem;
+}
+
+.conteudo-cartao h3{
+    background-color: #387478;
+    position: absolute;
+    text-align: left;
+    padding: 0.5rem;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    size: 1vw;
+}
