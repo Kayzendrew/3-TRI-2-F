@@ -39,6 +39,7 @@ footer p{
     margin: 2rem;
     height: 20rem;
     background-color: #741e3e;
+    border-radius: 10px;
 }
 
 .cartao:hover .conteudo-cartao{
@@ -47,7 +48,7 @@ footer p{
 
 .conteudo-cartao{
     text-align: center;
-    height: 100%;
+    height: 80%;
     background-color: #7ddf63;
     padding: 20px;
     transform-style: preserve-3d;
@@ -69,6 +70,8 @@ footer p{
 .cartao-conteudo-pergunta{
   color: var(--cor-do-texto);
   font-weight: 500;
+  padding-top: 100px;
+  color: var(--cor-cartao-verso);
 }
 
 .cartao-conteudo-pergunta, .cartao-conteudo-resposta{
